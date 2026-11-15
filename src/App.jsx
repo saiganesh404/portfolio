@@ -3,12 +3,12 @@ import NavBar from './component/NavBar'
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import About from "./pages/About"
-import { BrowserRouter, Routes, Route, Link } from 'react-router';
+import { HashRouter, Routes, Route, Link } from 'react-router';
 
 export default function App() {
   return (
     <div className="main">
-      <BrowserRouter>
+      <HashRouter>
         <NavBar />
         <div className='main-content'>
         <Routes>
@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/about" element={<About />}/>
         </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
