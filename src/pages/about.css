@@ -1,0 +1,12 @@
+.about{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 3vh, 4rem);
+}
+
+.cards{
+    border-top: white dashed 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

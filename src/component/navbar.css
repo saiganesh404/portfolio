@@ -1,0 +1,48 @@
+.navbar{
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: white dashed 1px;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    gap: clamp(0.2rem, 3vw, 1rem);
+}
+
+.navbar-left a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-left a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar-right a{
+    color: white;
+}
+
+.navbar-right a:hover{
+    color: gainsboro;
+}
+
+.sections a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.sections a:hover {
+    text-decoration: underline;
+}
+
+.sections{
+    list-style-type: none;
+    display: flex;
+    gap: clamp(1rem, 3vw, 3rem);
+}

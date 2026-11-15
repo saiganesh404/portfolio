@@ -1,0 +1,12 @@
+[
+    {
+        "id" : 1,
+        "name" : "Robo Reach",
+        "image" : "./../assets/projects/robo_reach.png",
+        "gh_link" : "",
+        "description" : "Pick and Place Robot specelized for IITB Techfest Hyderabad"
+    },
+    {
+
+    }
+]

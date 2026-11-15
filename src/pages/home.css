@@ -1,0 +1,22 @@
+.home{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(0.2rem, 3vh, 1rem);
+    min-height: 90vh;
+    text-align: center;
+}
+
+.home a{
+    color: grey;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.home a:hover{
+    color: #7a7a7a;
+    text-decoration: underline;
+    cursor: pointer;
+}

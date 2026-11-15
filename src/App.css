@@ -1,0 +1,14 @@
+body {
+  font-family: 'Iosevka', monospace;
+  background-color: oklch(15% .01 260);
+  color: white;
+}
+
+.main{
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.main-content{
+  min-height: 90vh;
+}

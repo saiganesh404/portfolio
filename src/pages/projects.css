@@ -1,0 +1,15 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    min-height: 90vh;
+    padding: 15px;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 320px));
+    justify-content: left;
+    gap: 24px;
+    margin-top: clamp(1rem, 3vh, 4rem);
+}

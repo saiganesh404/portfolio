@@ -1,0 +1,31 @@
+.project {
+  width: 100%;
+  max-width: 350px; /* Control overall card size from the parent */
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 1vh, 2rem);
+}
+
+.project img {
+  width: clamp(15rem, 15vw, 20rem);
+  aspect-ratio: 1 / 1; /* Automatically calculates height proportionally */
+  object-fit: cover;    /* Fills the box cleanly without stretching */
+  display: block;       /* Removes the tiny gap underneath inline images */
+
+  filter: grayscale(100%);
+  transition: filter 0.2s;
+}
+
+.project img:hover{
+    filter: grayscale(40%);
+    transition: filter 0.2s;
+}
+
+.project a{
+    color: white;
+    text-decoration: none;
+}
+
+.project a:hover{
+    text-decoration: underline;
+}
